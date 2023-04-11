@@ -2,7 +2,6 @@ body {
   font-family: "Fira Sans", sans-serif;
   margin: 0;
   color: #141414;
-  margin-bottom: 1000px;
 }
 
 ul {
@@ -19,6 +18,7 @@ h3 {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -33,6 +33,6 @@ img {
   .subtitulo {
     font-size: 3rem;
     text-transform: capitalize;
-    max-width: initial;
+    max-width: initial !important;
   }
 }
